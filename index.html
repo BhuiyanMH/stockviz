@@ -37,9 +37,16 @@
 					<div class="container">
 						<div id="content">
 
+								<h1>Welcome to Stockviz!</h1>
+
 							<!-- Content -->
 								<article>
-									<h2>Overall Stock Market Movement</h2>
+
+									<p>Here, together we will be exploring how the economy reacted to the Covid-19 and the government measures to combat it. More specifically, we will be trying to assess the impact on the economy through the stock markets and also analyze how companies of different industries have reacted to Covid. </br> </br>
+
+									Let's start with the overall view of stock markets of Asia, America, and Europe. The Asian market index is Hang Seng, and it is consists of China, South Korea, Singapore, and Hong Kong. The name of the American index is S&P 500 whereas the European index is STOXX 50 EU. </p>
+
+									<h4>Overall Stock Market Movement</h4>
 									<div class="overall_index"></div>
 									<p>Stock market index during Covid-19. Hover on the graph to see details.</p>
 
@@ -50,11 +57,15 @@
 									  if (name === "overall_index") return Inspector.into(".overall_index")();
 									});
 									</script>
+
+									<p>We can see a consistent drop in the index of the Asian market as China implemented a lockdown in Wuhan from 23rd January 2020. Huge drops are seen in the American and European markets as they also started setting strategies to implement lockdown which started from the 3rd week of February to different weeks of March in different states and provinces. Now let's analyze the stability of the markets in detail.</p>
+
 								</article>
 
 
 								<article>
-									<h3>Detailed view of Asian Stock Market: Hang Seng Index</h3>
+
+									<h4>Detailed view of Asian Stock Market: Hang Seng Index</h4>
 									<div class="details_china"></div>
 									<p>Asian stock market comprising China, South Korea, Singapore and Hong Kong. The Box represents Open and Close, whereas Line represents High and Low.</p>
 
@@ -67,9 +78,11 @@
 									</script>
 								</article>
 
+								<p>We can see that the markets become quite unstable during the early period of lockdown. After a while, they become more stable.</p>
 
 								<article>
-									<h3>Detailed view of American Stock Market: S&P 500 Index</h3>
+
+									<h4>Detailed view of American Stock Market: S&P 500 Index</h>
 
 									<div class="details_usa"></div>
 									<p>American stock market comprising only United States of America. The Box represents Open and Close, whereas Line represents High and Low.</p>
@@ -82,6 +95,18 @@
 									});
 									</script>
 								</article>
+
+								<p>Now, we have a general overview of the response of markets! Let's analyze how different industries responded to Covid!</p>
+								<ul>
+									<li><a href="bubblesectors.html" class="button large icon solid fa-arrow-circle-right">Ok let's go</a></li>
+								</ul>
+
+								<h4>Tasks to be done: </h4>
+
+								<ul>
+									<li> Combining the lockdown data with the stock market data. For this reason, we will be using the data from the <a href="https://covidtracker.bsg.ox.ac.uk/">Oxford COVID-19 Government Response Tracker</a>.</li>
+									<li>Adding filter and market selection to analyze the details of a particular market during a specific period. Therefore, it will be two visualizations on this page, one with overall and another with a detailed view.</li>
+								</ul>
 
 						</div>
 					</div>

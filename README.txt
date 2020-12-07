@@ -1,7 +1,7 @@
-## Impact of Covid-19 on the economy: A stock market perspective
+##Impact of Covid-19 on the economy: A stock market perspective
 
-#### By
+####By
 
-Andrea Armani
-Dimitrios Tsesmelis
-Mahmudul Hasan Bhuiyan
+- Andrea Armani
+- Dimitrios Tsesmelis
+- Mahmudul Hasan Bhuiyan

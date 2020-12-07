@@ -44,9 +44,16 @@
 							What is still missing is a line chart that will be plotted when a company is selected.
 							</p>
 							
-	<iframe width="50%" height="800" frameborder="0"
-  src="https://observablehq.com/embed/@tempandreaarmani/zoomable-circle-packing?cell=chart"></iframe>
+<div class="chart"></div>
+<p>Credit: <a href="https://observablehq.com/@tempandreaarmani/zoomable-circle-packing">Zoomable Circle Packing by andrea armani</a></p>
 
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@tempandreaarmani/zoomable-circle-packing.js?v=3";
+(new Runtime).module(define, name => {
+  if (name === "chart") return Inspector.into(".chart")();
+});
+</script>
 						</div>
 					</div>
 				</div>

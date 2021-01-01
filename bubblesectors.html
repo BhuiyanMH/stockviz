@@ -65,6 +65,7 @@
 							</p>
 							
 <div class="chart"></div>
+<div class="chart1"></div>
 <p>Credit: <a href="https://observablehq.com/@tempandreaarmani/zoomable-circle-packing">Zoomable Circle Packing by andrea armani</a></p>
 
 <script type="module">
@@ -72,6 +73,7 @@ import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/run
 import define from "https://api.observablehq.com/@tempandreaarmani/zoomable-circle-packing.js?v=3";
 (new Runtime).module(define, name => {
   if (name === "chart") return Inspector.into(".chart")();
+  if (name === "chart1") return Inspector.into(".chart1")();
 });
 </script>
 						</div>

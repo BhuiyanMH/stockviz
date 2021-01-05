@@ -68,13 +68,21 @@
 <div class="chart1" width="932"></div>
 
 	
+<div class="chart"></div>
+<div class="chart1"></div>
+<div class="viewof-start"></div>
+<div class="viewof-end"></div>
+<p>Credit: <a href="https://observablehq.com/@tempandreaarmani/companies-stocks-per-sector/2">Companies Stocks per Sector by andrea armani</a></p>
+
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/@tempandreaarmani/companies-stocks-per-sector/2.js?v=3";
 (new Runtime).module(define, name => {
   if (name === "chart") return Inspector.into(".chart")();
   if (name === "chart1") return Inspector.into(".chart1")();
-  return ["vertical_lines","annotations","hover"].includes(name) || null;
+  if (name === "viewof start") return Inspector.into(".viewof-start")();
+  if (name === "viewof end") return Inspector.into(".viewof-end")();
+  return ["vertical_lines","annotations","hover","start_date","stock_to_show","x1","y1","yAxis1","bisect","xAxis1","line","end_date"].includes(name) || null;
 });
 </script>
 						</div>

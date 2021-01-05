@@ -58,14 +58,15 @@
 							
 <div class="chart"></div>
 <div class="chart1"></div>
-<p>Credit: <a href="https://observablehq.com/@tempandreaarmani/companies-stocks-per-sector">Companies Stocks per Sector by andrea armani</a></p>
+<p>Credit: <a href="https://observablehq.com/@tempandreaarmani/companies-stocks-per-sector/2">Companies Stocks per Sector by andrea armani</a></p>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@tempandreaarmani/companies-stocks-per-sector.js?v=3";
+import define from "https://api.observablehq.com/@tempandreaarmani/companies-stocks-per-sector/2.js?v=3";
 (new Runtime).module(define, name => {
   if (name === "chart") return Inspector.into(".chart")();
   if (name === "chart1") return Inspector.into(".chart1")();
+  return ["vertical_lines","annotations","hover"].includes(name) || null;
 });
 </script>
 						</div>

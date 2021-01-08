@@ -79,6 +79,14 @@
 							});
 						</script>
 
+						<script type="module">
+							import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+							import define from "https://api.observablehq.com/@bhuiyanmh/stockviz.js?v=3";
+							(new Runtime).module(define, name => {
+								if (name === "overall_selection_details") return Inspector.into(".overall_selection_details")();
+							});
+						</script>
+
 					</article>
 
 					<p>We can see that the markets become quite unstable during the early period of lockdown. After a while, they become more stable.</p>

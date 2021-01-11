@@ -1,0 +1,14 @@
+{
+  "name": "@bhuiyanmh/stockviz",
+  "main": "63f4f9feb795d8e8@1175.js",
+  "version": "1175.0.0",
+  "homepage": "https://observablehq.com/@bhuiyanmh/stockviz",
+  "author": {
+    "name": "Mahmudul Hasan Bhuiyan",
+    "url": "https://observablehq.com/@bhuiyanmh"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

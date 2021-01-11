@@ -41,76 +41,82 @@
 					
 					<h1>Welcome to Stockviz!</h2>
 
-						<!-- Content -->
-						<article>
+					<p>
 
-							<p>Here, together we will be exploring how the economy reacted to the Covid-19 and the government measures to combat it. More specifically, we will be trying to assess the impact on the economy through the stock markets and also analyze how companies of different industries have reacted to Covid. </br> </br>
+					Here, we will be exploring how the economy reacted to the government measures of Covid-19.  We will try to assess the economic impact through the stock markets.  How companies of different industries have responded to Covid will also be explored. </br>
 
-							Let's start with the overall view of stock markets of Asia, America, and Europe. The Asian market index is Hang Seng, and it is consists of China, South Korea, Singapore, and Hong Kong. The name of the American index is S&P 500 whereas the European index is STOXX 50 EU. </p>
-
-							<div class="overall_index"></div>
-							<p>Stock market index during Covid-19. Hover on the graph to see details.</p>
-
-							<script type="module">
-								import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-								import define from "https://api.observablehq.com/@bhuiyanmh/stockviz.js?v=3";
-								(new Runtime).module(define, name => {
-									if (name === "overall_index") return Inspector.into(".overall_index")();
-								});
-							</script>
+					Let's start with the overall view of stock markets of Asia, America, and Europe. The Asian market index is Hang Seng, and it is consists of China, South Korea, Singapore, and Hong Kong. The name of the American index is S&P 500, and the European index is STOXX 50 EU.  </br>
 
 
-							<p>We can see a consistent drop in the index of the Asian market as China implemented a lockdown in Wuhan from 23rd January 2020. Huge drops are seen in the American and European markets as they also started setting strategies to implement lockdown which started from the 3rd week of February to different weeks of March in different states and provinces. Now let's analyze the stability of the markets in detail.</p>
+					The Confinement Index (CI) represents an overall view of the strictness of confinement measures. It is calculated using the same procedure of the <a href="https://github.com/OxCGRT/covid-policy-tracker/blob/master/documentation/index_methodology.md">confinement data</a> based on only the confinement indicators. The higher value represents more strict confinement measures.
 
-						</article>
+					</p>
 
+					<div class="overall_index"></div>
 
-						<article>
-
-
-							<div class="overall_selection_confinemen_details"></div>
-
-							<script type="module">
-								import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-								import define from "https://api.observablehq.com/@bhuiyanmh/stockviz.js?v=3";
-								(new Runtime).module(define, name => {
-									if (name === "overall_selection_confinemen_details") return Inspector.into(".overall_selection_confinemen_details")();
-								});
-							</script>
-						</article>
+					<script type="module">
+							import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+							import define from "https://api.observablehq.com/@bhuiyanmh/stockviz.js?v=3";
+							(new Runtime).module(define, name => {
+								if (name === "overall_index") return Inspector.into(".overall_index")();
+							});
+					</script>
 
 
-			<p>Now, we have a general overview of the response of markets! Let's analyze how different industries responded to Covid! <a href="bubblesectors.html">Ok let's go</a> </p>
+					<p>We can see a consistent drop for a while in the index of the Asian market as China implemented a lockdown in Wuhan from 23rd January 2020. Big drops are seen in the American and European markets when the governments of respective countries started to set strategies to implement lockdown that started from the 3rd week of February to different weeks of March in various states and provinces.</p>
 
-		</div>
-	</div>
-</div>
+					<p>Now let's analyze the stability of the markets in detail. In the following candlesticks chart, the daily open and close values of an index are represented by candlesticks. The shadow of the candlesticks shows the high and low of a particular day. The vertical lines represent changes in the confinement rules. Hover on the line or candlesticks to get the details. </br>
 
-<!-- Footer -->
-<div id="footer-wrapper">
-	<footer id="footer" class="container">
-		<div class="row">
-			<div class="col-12">
-				<div id="copyright">
-					<ul class="menu">
-						<li>&copy; Stockviz .All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+					The green candlesticks represent that the close value of an index is higher than the open value whereas the red ones represent the opposite. Long green candlesticks indicate there is a strong buying pressure and typically implies that the price is bullish.  Contrarily, long red candlesticks indicate that there is a significant selling pressure and are suggestive of the price to be bearish.</p>
+
+
+					<div class="overall_selection_confinemen_details"></div>
+
+					<script type="module">
+							import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+							import define from "https://api.observablehq.com/@bhuiyanmh/stockviz.js?v=3";
+							(new Runtime).module(define, name => {
+								if (name === "overall_selection_confinemen_details") return Inspector.into(".overall_selection_confinemen_details")();
+							});
+					</script> 
+
+				
+					<p>Now, we have a general overview of the response of markets to Covid confinement measures! Let's analyze how different industries and companies responded to Covid! <a href="bubblesectors.html">Ok let's go.</a> </p>
+
+					</div>
+
 				</div>
 			</div>
+
+			<!-- Footer -->
+			<div id="footer-wrapper">
+				<footer id="footer" class="container">
+					<div class="row">
+						<div class="col-12">
+							<div id="copyright">
+								<ul class="menu">
+									<li>&copy; Stockviz. All rights reserved</li>
+									<li>This project is developed as a part of the <a href="https://www.aviz.fr/TeachingVA2020/VisualAnalytics">Visual Analytics</a> course of CentraleSupélec taught by <a href="https://scholar.google.com/citations?user=mw0_aLoAAAAJ&hl=en&oi=ao">Dr. Petra Isenberg</a>. </li>
+									<li>The developers of the project are <a href="https://www.linkedin.com/in/andrea-armani-2308021a1/">Andrea Armani</a>, <a href="https://www.linkedin.com/in/dimitris-tsesmelis-b0bb2b152/">Dimitris Tsesmelis</a>, and <a href="https://www.linkedin.com/in/bhuiyanmh/">Mahmudul Hasan Bhuiyan</a>.</li>
+									<li>The stock market data are collected from <a href="https://finance.yahoo.com/"> Yahoo Finance</a> and confinement data are collected from <a href="https://github.com/OxCGRT/covid-policy-tracker">Oxford Covid-19 Government Response Tracker </a> dataset.</li>
+									<li>Website template design credit goes to: <a href="http://html5up.net">HTML5 UP</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+
 		</div>
-	</footer>
-</div>
 
-</div>
+		<!-- Scripts -->
 
-<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.dropotron.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
-
-</body>
+	</body>
 </html>

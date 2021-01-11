@@ -8,7 +8,7 @@
 
 ### Visualization code
 
-All the code for the visualizations is available in the js/viz* folders. 
+All the code for the visualizations is available in the visuals/viz* folders. 
 However, for an immediate understanding we recommend to open them using Observable at the following links:
 
 Visualization 1:

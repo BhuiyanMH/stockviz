@@ -1,0 +1,14 @@
+{
+  "name": "@tempandreaarmani/companies-stocks-per-sector/2",
+  "main": "ce5032d8debc010c@2048.js",
+  "version": "2048.0.0",
+  "homepage": "https://observablehq.com/@tempandreaarmani/companies-stocks-per-sector/2",
+  "author": {
+    "name": "andrea armani",
+    "url": "https://observablehq.com/@tempandreaarmani"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

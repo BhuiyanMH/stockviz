@@ -7,6 +7,7 @@
 - Mahmudul Hasan Bhuiyan
 
 The tool is available online at: https://bhuiyanmh.github.io/stockviz/index.html
+
 The data can be downloaded from: https://drive.google.com/drive/folders/1_jP_0sQy2rED3oQnfkrWyzH0mgy89uPx
 
 ### Visualization code

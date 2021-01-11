@@ -1,0 +1,232 @@
+,Date,Index,Measure
+0,2019-09-01,Hang Seng,No restriction
+1,2020-01-01,Hang Seng,"
+China: No restriction
+Hong Kong: Covid screening on arrivals
+South Korea: No restriction
+Singapore: No restriction
+"
+2,2020-01-23,Hang Seng,"
+China: Recommended not leaving house
+Hong Kong: Covid screening on arrivals
+South Korea: No restriction
+Singapore: Ban on arrivals from some regions
+"
+3,2020-01-26,Hang Seng,"
+China: Require closing for all but essential workplaces; Recommended not leaving house
+Hong Kong: Covid screening on arrivals
+South Korea: No restriction
+Singapore: Ban on arrivals from some regions
+"
+4,2020-02-01,Hang Seng,"
+China: Require closing for all but essential workplaces; Require not leaving house with minimal exceptions
+Hong Kong: Require workplace closing for some sectors; Ban on arrivals from some regions
+South Korea: No restriction
+Singapore: Ban on arrivals from some regions
+"
+5,2020-02-25,Hang Seng,"
+China: Require closing for all but essential workplaces; Require not leaving house with minimal exceptions; Quarantine on arrivals from some or all regions
+Hong Kong: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+South Korea: Recommended workplace closing; Recommended not leaving house; Ban on arrivals from some regions
+Singapore: Ban on arrivals from some regions
+"
+6,2020-03-26,Hang Seng,"
+China: Require closing for all but essential workplaces; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Hong Kong: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+South Korea: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Singapore: Ban on arrivals from some regions
+"
+7,2020-04-03,Hang Seng,"
+China: Require workplace closing for some sectors; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Hong Kong: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+South Korea: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Singapore: Recommended not leaving house; Ban on arrivals from some regions
+"
+8,2020-04-08,Hang Seng,"
+China: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+Hong Kong: Require workplace closing for some sectors; Recommended not leaving house; Ban on all regions or total border closure
+South Korea: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Singapore: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+"
+9,2020-05-10,Hang Seng,"
+China: Require closing for all but essential workplaces; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Hong Kong: Require workplace closing for some sectors; Recommended not leaving house; Ban on all regions or total border closure
+South Korea: Require workplace closing for some sectors; Ban on arrivals from some regions
+Singapore: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Quarantine on arrivals from some or all regions
+"
+10,2020-09-02,Hang Seng,"
+China: Recommended workplace closing; Ban on arrivals from some regions
+Hong Kong: Require workplace closing for some sectors; Recommended not leaving house; Ban on all regions or total border closure
+South Korea: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Singapore: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+"
+11,2020-09-15,Hang Seng,"
+China: Require closing for all but essential workplaces; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Hong Kong: Require workplace closing for some sectors; Ban on all regions or total border closure
+South Korea: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Singapore: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+"
+12,2020-09-21,Hang Seng,"
+China: Require workplace closing for some sectors; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Hong Kong: Require workplace closing for some sectors; Ban on all regions or total border closure
+South Korea: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Singapore: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+"
+13,2020-09-26,Hang Seng,"
+China: Require workplace closing for some sectors; Ban on arrivals from some regions
+Hong Kong: Recommended workplace closing; Ban on all regions or total border closure
+South Korea: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Singapore: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+"
+14,2020-10-12,Hang Seng,"
+China: Require workplace closing for some sectors; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Hong Kong: Recommended workplace closing; Ban on all regions or total border closure
+South Korea: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Singapore: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+"
+15,2020-10-24,Hang Seng,"
+China: Require closing for all but essential workplaces; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Hong Kong: Recommended workplace closing; Ban on all regions or total border closure
+South Korea: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Singapore: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+"
+16,2020-10-30,Hang Seng,"
+China: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Hong Kong: Recommended workplace closing; Ban on all regions or total border closure
+South Korea: Recommended workplace closing; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Singapore: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+"
+17,2020-11-20,Hang Seng,"
+China: Require closing for all but essential workplaces; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Hong Kong: Recommended workplace closing; Quarantine on arrivals from some or all regions
+South Korea: Recommended workplace closing; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Singapore: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+"
+18,2019-09-01,STOXX 50 EU,No restriction
+19,2020-01-01,STOXX 50 EU,"
+Germany: No restriction
+France: No restriction
+Spain: No restriction
+Italy: No restriction
+Netherlands: No restriction
+United Kingdom: No restriction
+"
+20,2020-02-28,STOXX 50 EU,"
+Germany: Covid screening on arrivals
+France: Covid screening on arrivals
+Spain: No restriction
+Italy: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Netherlands: No restriction
+United Kingdom: No restriction
+"
+21,2020-03-09,STOXX 50 EU,"
+Germany: Recommended not leaving house; Covid screening on arrivals
+France: Covid screening on arrivals
+Spain: Recommended workplace closing
+Italy: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Netherlands: Recommended not leaving house
+United Kingdom: No restriction
+"
+22,2020-03-16,STOXX 50 EU,"
+Germany: Recommended not leaving house; Ban on arrivals from some regions
+France: Covid screening on arrivals
+Spain: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Italy: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Netherlands: Require closing for all but essential workplaces; Recommended not leaving house
+United Kingdom: Recommended workplace closing; Recommended not leaving house
+"
+23,2020-03-18,STOXX 50 EU,"
+Germany: Recommended not leaving house; Ban on all regions or total border closure
+France: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Spain: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on all regions or total border closure
+Italy: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Netherlands: Require closing for all but essential workplaces; Recommended not leaving house
+United Kingdom: Recommended workplace closing; Recommended not leaving house
+"
+24,2020-03-21,STOXX 50 EU,"
+Germany: Require not leaving house with exceptions for essential trips; Ban on all regions or total border closure
+France: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Spain: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on all regions or total border closure
+Italy: Require closing for all but essential workplaces; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Netherlands: Require closing for all but essential workplaces; Recommended not leaving house; Ban on arrivals from some regions
+United Kingdom: Require closing for all but essential workplaces; Recommended not leaving house
+"
+25,2020-03-22,STOXX 50 EU,"
+Germany: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on all regions or total border closure
+France: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Spain: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on all regions or total border closure
+Italy: Require closing for all but essential workplaces; Require not leaving house with minimal exceptions; Ban on arrivals from some regions
+Netherlands: Require closing for all but essential workplaces; Recommended not leaving house; Ban on arrivals from some regions
+United Kingdom: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips
+"
+26,2020-05-06,STOXX 50 EU,"
+Germany: Require workplace closing for some sectors; Ban on all regions or total border closure
+France: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Spain: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on all regions or total border closure
+Italy: Recommended workplace closing; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Netherlands: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+United Kingdom: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips
+"
+27,2020-05-16,STOXX 50 EU,"
+Germany: Require workplace closing for some sectors; Ban on arrivals from some regions
+France: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+Spain: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on all regions or total border closure
+Italy: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+Netherlands: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+United Kingdom: Require closing for all but essential workplaces; Recommended not leaving house
+"
+28,2020-10-15,STOXX 50 EU,"
+Germany: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+France: Require workplace closing for some sectors; Ban on arrivals from some regions
+Spain: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+Italy: Require workplace closing for some sectors; Ban on arrivals from some regions
+Netherlands: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+United Kingdom: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+"
+29,2020-10-22,STOXX 50 EU,"
+Germany: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+France: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Spain: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+Italy: Require workplace closing for some sectors; Ban on arrivals from some regions
+Netherlands: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+United Kingdom: Require workplace closing for some sectors; Recommended not leaving house; Quarantine on arrivals from some or all regions
+"
+30,2020-11-02,STOXX 50 EU,"
+Germany: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+France: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Spain: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+Italy: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Quarantine on arrivals from some or all regions
+Netherlands: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+United Kingdom: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Quarantine on arrivals from some or all regions
+"
+31,2019-09-01,S&P 500,No restriction
+32,2020-01-01,S&P 500,"
+United States: No restriction
+"
+33,2020-02-02,S&P 500,"
+United States: Quarantine on arrivals from some or all regions
+"
+34,2020-03-02,S&P 500,"
+United States: Ban on arrivals from some regions
+"
+35,2020-03-15,S&P 500,"
+United States: Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+"
+36,2020-03-19,S&P 500,"
+United States: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+"
+37,2020-06-15,S&P 500,"
+United States: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+"
+38,2020-07-20,S&P 500,"
+United States: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+"
+39,2020-10-13,S&P 500,"
+United States: Require workplace closing for some sectors; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+"
+40,2020-10-26,S&P 500,"
+United States: Require workplace closing for some sectors; Recommended not leaving house; Ban on arrivals from some regions
+"
+41,2020-11-16,S&P 500,"
+United States: Require closing for all but essential workplaces; Require not leaving house with exceptions for essential trips; Ban on arrivals from some regions
+"

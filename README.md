@@ -6,11 +6,12 @@
 - Dimitrios Tsesmelis
 - Mahmudul Hasan Bhuiyan
 
+The tool is available online at: https://bhuiyanmh.github.io/stockviz/index.html
 ### Visualization code
 
 All the code for the visualizations is available in the visuals/viz* folders. 
 However, for an immediate understanding we recommend to open them using Observable at the following links:
 
-Visualization 1:
+Visualization 1: https://observablehq.com/@bhuiyanmh/stockviz
 
 Visualization 2: https://observablehq.com/@tempandreaarmani/companies-stocks-per-sector/2
